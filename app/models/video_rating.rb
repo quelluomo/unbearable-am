@@ -1,0 +1,2 @@
+class VideoRating < ApplicationRecord
+end

@@ -4,7 +4,7 @@ class CreateVideoRatings < ActiveRecord::Migration[5.2]
       t.integer :video_id
       t.integer :rating_id
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end

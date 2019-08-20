@@ -3,7 +3,7 @@ class CreateRatings < ActiveRecord::Migration[5.2]
     create_table :ratings do |t|
       t.string :status
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end

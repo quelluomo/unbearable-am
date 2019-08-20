@@ -5,7 +5,7 @@ class CreateVideos < ActiveRecord::Migration[5.2]
       t.string :url
       t.integer :user_id
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
